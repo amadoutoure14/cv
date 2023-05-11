@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.A4{
+    max-width: 1200px;
+    border: 1px solid black;
+    width: 595px;
+    height: 842px;
+    display: flex;
+}
+.frame1{
+    background: rgb(5, 22, 48);
+    width: 226px;
+    height: 842px;
+}
+img{
+    border-radius: 50%;
+    width: 125px;
+    height: 128px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0 10px 0 20px 
+}
+.liste h5{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.line{
+    height: 3px;
+    width: 30px;
+    background-color: rgb(30, 137, 183);
+}
+
+.frame1 ul li {
+    color: #616F87;
+}
+.nom{
+    padding-left: 35px;
+    font-size: 35px;
+}
+.frame2 h5 {
+    color:#000;
+    display: flex;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.date{
+    font-size: 14px;
+    padding-left: 55px;
+}
+.date1{
+    font-size: 14px;
+    padding-left: 55px;
+}
+.date2{
+    font-size: 14px;
+    padding-left: 55px;
+}
+.sous-titre{
+    display: flex;
+}
+.sous-titre2{
+    display: flex;
+}
+#a1{
+    margin: -2px 0px 15px 25px;
+    color: #15B3C2;
+    font-size: 10px;
+}
