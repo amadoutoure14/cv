@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Ou la branche que vous souhaitez déclencher le déploiement
+      - main  # Ou la branche que vous souhaitez déclencher le déploiement
 
 jobs:
   deploy:
