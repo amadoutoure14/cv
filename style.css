@@ -7,7 +7,7 @@ body{
 }
 #A4{
     margin: 2%;
-    min-height: 1000px;
+    min-height: 1400px;
     min-width: 700px;
     display: flex;
     border: 2px solid #000;
