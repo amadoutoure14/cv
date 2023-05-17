@@ -14,12 +14,11 @@ body{
 }
 .conteneurG{
     width: 35%;
-    padding: 1%;
+    padding: 3%;
     background-color: #051630;
 }
 .image{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 10px auto 10px auto;
 }
 .image img{
     border-radius: 50%;
@@ -28,4 +27,15 @@ body{
 }
 .conteneurD{
     width: 65%;
+}
+.conteneurD .info{
+    position: relative;
+    margin-top: 50px;
+
+}
+h3{
+    color: #f0f8ff;
+}
+.conteneurG p{
+    color: #505F73;
 }
