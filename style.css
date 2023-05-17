@@ -19,11 +19,13 @@ body{
 }
 .image{
     margin: 10px auto 10px auto;
+    height: auto;
+    width: auto;
 }
 .image img{
     border-radius: 50%;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
 .conteneurD{
     width: 65%;
