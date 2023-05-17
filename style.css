@@ -29,15 +29,34 @@ body{
 }
 .conteneurD{
     width: 65%;
+    padding: 0px;
+    margin: 0px;
 }
 .conteneurD .info{
     position: relative;
     margin-top: 50px;
 
 }
-h3{
+.conteneurG  h3 {
     color: #f0f8ff;
 }
-.conteneurG p{
+.conteneurG  h5 {
+    color: #f0f8ff;
+    margin: -1px 0px 0px 0px;
+}
+
+.conteneurG .ecrit{
     color: #505F73;
+    margin-left: 2px;
+}
+.line{
+    margin-top: -20px;
+    border: 2px solid #1E89B7;
+    width: 35px;
+}
+.conteneurG .ecrit1{
+    color: #505F73;
+    margin-left: 2px;
+    text-align: left;
+    line-height: 24px;
 }
