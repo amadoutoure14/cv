@@ -6,7 +6,7 @@ body{
     align-content: center;
 }
 #A4{
-    margin: 2%;
+    margin: 4%;
     min-height: 1400px;
     min-width: 700px;
     display: flex;
@@ -16,24 +16,31 @@ body{
     width: 35%;
     padding: 3%;
     background-color: #051630;
+    align-content: center;
+    align-items: center;
+    
 }
-.image{
-    margin: 10px auto 10px auto;
+.conteneurG .image{
+    align-items: center;
+    align-content: center;
     height: auto;
-    width: auto;
+    width: 100%;
 }
 .image img{
     border-radius: 50%;
     height: auto;
-    width: auto;
+    max-width: 300px;
+    width: 100%;
 }
 .conteneurD{
     width: 65%;
-    padding: 0px;
-    margin: 0px;
+    padding: 10px 10px 0px 10px;
+    align-items: center;
+    align-content: center;
+
 }
 .conteneurD .info{
-    position: relative;
+    width: 100%;
     margin-top: 50px;
 
 }
@@ -48,15 +55,25 @@ body{
 .conteneurG .ecrit{
     color: #505F73;
     margin-left: 2px;
+    width: auto;
+    height: auto;
 }
 .line{
     margin-top: -20px;
-    border: 2px solid #1E89B7;
+    border: 2px solid #0E78A6;
     width: 35px;
+    border-radius: 18%;
 }
 .conteneurG .ecrit1{
     color: #505F73;
     margin-left: 2px;
     text-align: left;
     line-height: 24px;
+}
+.align{
+    display: flex;
+}
+#date1{
+    margin-top: 20px;
+    margin-left: auto;
 }
