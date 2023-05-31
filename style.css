@@ -16,15 +16,14 @@ body{
     width: 35%;
     padding: 3%;
     background-color: #051630;
-    align-content: center;
-    align-items: center;
-    
 }
 .conteneurG .image{
-    align-items: center;
-    align-content: center;
+    margin-left: auto;
     height: auto;
-    width: 100%;
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 5%;
 }
 .image img{
     border-radius: 50%;
@@ -40,9 +39,13 @@ body{
 
 }
 .conteneurD .info{
+    align-items: center;
     width: 100%;
-    margin-top: 50px;
-
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 5%;
 }
 .conteneurG  h3 {
     color: #f0f8ff;
@@ -78,28 +81,12 @@ body{
     margin-left: auto;
     margin-right: 15px;
 }
-.interligne{
-    padding: -2%;
-}
 .competence{
     margin-top: 4px;
     display: flex;
     align-items: center;
     align-content: center;
 }
-.point{
-    width: 200px;
-    height: 200px;
-}
-.rondbleu{
-    border-radius: 50%;
-    background-color: #0D9ED8;
-    width: 60px;
-    height: 60px;
-}
-.rondblanc{
-    border-radius: 50%;
-    background-color: #fff;
-    width: 60px;
-    height: 60px;
+.interligne{
+    line-height: 0.5px;
 }
