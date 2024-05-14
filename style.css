@@ -27,7 +27,6 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    border: 1px solid black;
     width: 400px;
 }
 .image_conteneur{
@@ -99,4 +98,60 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.profession{
+    width: 600px;
+}
+.profession .nom{
+    text-transform: uppercase;
+    font-size: 35px !important;
+    color: rgb(3, 49, 74);
+    font-weight: bolder;
+}
+.prenom{
+    position: absolute;
+    top: 25px; 
+    right: 600px;
+}
+.famille{
+    position: absolute;
+    top: 95px; 
+    right: 600px;
+}
+.note{
+    text-align: center;
+    width: 410px;
+    position: absolute;
+    top: 200px;
+    right: 350px;
+}
+.competence{
+    text-transform: uppercase;
+    position: absolute;
+    right: 330px;
+    top: 260px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(3, 49, 74);
+}
+.mes_competences{
+    position: absolute;
+    top: 305px;
+    right: 425px;
+}
+.mes_competences ul li{
+    list-style: circle;
+}
+.formations{
+    text-transform: uppercase;
+    position: absolute;
+    right: 330px;
+    bottom: 45px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(3, 49, 74);
 }
